@@ -1,0 +1,64 @@
+<templateSet group="android-java">
+  <template name="iv" value="@InjectView(R.id.$ID$) $VIEW_NAME$ m$NAME$;$END$" description="Creates a butterknife @InjectView annoation" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_NAME" expression="&quot;TextView&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="fvbi" value="m$NAME$ = ($VIEW_TYPE$) findViewById(R.id.$ID$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="toast" value="Toast.makeText($CONTEXT$, $TEXT$, Toast.LENGTH_$LENGTH$).show();" description="Make a toast" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="&quot;context&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="&quot;\&quot;content\&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="LENGTH" expression="&quot;SHORT&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="logval" value="Log.d(NAME, &quot;$VAL$ = &quot; + $VAL$);" description="Logs a values" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="bld" value="Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.$SDK$" description="Setup Build.VERSION.SDK_INT" toReformat="false" toShortenFQNames="true">
+    <variable name="SDK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jd" value="/** $COMMENT$ **/" description="Javadoc comment" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="bc" value="/* $COMMENT$ */" description="Block comment" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="viewcon" value="/**&#10; * Constructor.&#10; * @param context --&#10; */&#10;public $VIEW_NAME$(final Context context) {&#10;    this(context, null);&#10;}&#10;&#10;/**&#10; * Constructor.&#10; * @param context --&#10; * @param attrs    --&#10; */&#10;public $VIEW_NAME$(final Context context, final AttributeSet attrs) {&#10;    this(context, attrs, 0);&#10;}&#10;&#10;/**&#10; * Constructor.&#10; * @param context --&#10; * @param attrs    --&#10; * @param defStyle --&#10; */&#10;public $VIEW_NAME$(final Context context, final AttributeSet attrs, final int defStyle) {&#10;    super(context, attrs, defStyle);&#10;    inflate(context, $LAYOUT$, this);&#10;    ButterKnife.inject(this);&#10;    $END$&#10;}" description="Creates the constructors for a custom view" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LAYOUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ioc" value="@OnClick(R.id.$ID$) void on$NAME$Clicked () {&#10;    $END$&#10;};" description="Inject butterknife @OnClick method" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

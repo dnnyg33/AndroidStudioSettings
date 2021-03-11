@@ -1,0 +1,99 @@
+<templateSet group="android-xml">
+  <template name="dim" value="&lt;dimen name=&quot;$NAME$&quot;&gt;$VAL$&lt;/dimen&gt;" description="Android dimension resource" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="str" value="&lt;string name=&quot;$NAME$&quot;&gt;$VAL$&lt;/string&gt;" description="Android string resource" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="txvw" value="&lt;TextView &#10;    android:id=&quot;@+id/$ID$_text_view&quot;&#10;    android:layout_width=&quot;$WIDTH$&quot;&#10;    android:layout_height=&quot;$HEIGHT$&quot;&#10;/&gt;" description="Insert Android TextView into xml" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WIDTH" expression="&quot;wrap_content&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEIGHT" expression="&quot;wrap_content&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="padall" value="android:paddingTop=&quot;$TOP$&quot;&#10;android:paddingBottom=&quot;$BOTTOM$&quot;&#10;android:paddingLeft=&quot;$LEFT$&quot;&#10;android:paddingStart=&quot;$LEFT$&quot;&#10;android:paddingRight=&quot;$RIGHT$&quot;&#10;android:paddingEnd=&quot;$RIGHT$&quot;" description="Inserts paddingLeft, paddingRight, paddingTop, and paddingBottom for a view in XML." toReformat="false" toShortenFQNames="true">
+    <variable name="TOP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BOTTOM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LEFT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RIGHT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="vw" value="&lt;$VIEW_NAME$&#10;    android:id=&quot;@+id/$ID$&quot;&#10;    android:layout_width=&quot;$WIDTH$&quot;&#10;    android:layout_height=&quot;$HEIGHT$&quot;$END$&#10;    /&gt;&#10;    " description="Inserts a view in XML" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_NAME" expression="&quot;TextView&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WIDTH" expression="&quot;wrap_content&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEIGHT" expression="&quot;wrap_content&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="vwg" value="&lt;$VIEW_NAME$&#10;    android:id=&quot;@+id/$ID$&quot;&#10;    android:layout_width=&quot;$WIDTH$&quot;&#10;    android:layout_height=&quot;$HEIGHT$&quot;$END$&#10;    &gt;&#10;&#10;&lt;/$VIEW_NAME$&gt;" description="Inserts a ViewGroup in XML" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_NAME" expression="&quot;RelativeLayout&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WIDTH" expression="&quot;wrap_content&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEIGHT" expression="&quot;wrap_content&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="clr" value="&lt;color name=&quot;$NAME$&quot;&gt;#$COLOR$&lt;/color&gt;" description="color xml resource" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="stl" value="&lt;style name=&quot;$NAME$&quot;&gt;&#10;    $CONTENT$&#10;&lt;/style&gt;" description="Android style resource" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="itm" value="&lt;item name=&quot;$NAME$&quot;&gt;$VAL$&lt;/item&gt;" description="Android xml item resource" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="xc" value="&lt;!-- $COMMENT$ --&gt;" description="XML comment" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="atr" value="&lt;attr name=&quot;$NAME$&quot; format=&quot;$FORMAT$&quot;/&gt;" description="Insert android attribute" toReformat="false" toShortenFQNames="true">
+    <variable name="FORMAT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ns" value="xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;xmlns:tools=&quot;http://schemas.android.com/tools&quot;" description="Inserts the Android xml namespaces" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,6 @@
+<templateSet group="Gauge">
+  <template name="sce" value="$SCENARIO_HEADING$&#10;----------------" description="Scenario Heading" toReformat="false" toShortenFQNames="true">
+    <variable name="SCENARIO_HEADING" expression="" defaultValue="&quot;SCENARIO_HEADING&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

@@ -1,0 +1,85 @@
+<templateSet group="user">
+  <template name="observeResource" value="presenter.$liveData$.observe(this, Observer { resource -&gt;&#10;            binding.progressBar.isVisible = resource is Loading&#10;            binding.retryView.isVisible = resource is NetworkError&#10;            binding.recyclerView.isVisible = resource is Success&#10;            when (resource) {&#10;                is Success -&gt; showSuccessAlerter(&#10;                    getString(R.string.saved_successfully),&#10;                    onHideAction = {&#10;                        $action$&#10;                    })&#10;                is NetworkError -&gt; showErrorAlert(&#10;                    this,&#10;                    appCoordinator = appCoordination,&#10;                    message = resource.message&#10;                )&#10;            }&#10;        })" description="observe a resource and update view with success, failure, and loading" toReformat="true" toShortenFQNames="true">
+    <variable name="liveData" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="false" />
+    </context>
+  </template>
+  <template name="test_getList" value="        private fun $VAR$Presenter.getList(): List&lt;$VAR$ListItem&gt; {&#10;    return (this.items.getOrAwaitValue() as Success).data&#10;}" description="add tests rules for coroutines and live data instant observation" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="centerConstraint" value="            android:layout_width=&quot;0dp&quot;&#10;            android:layout_height=&quot;0dp&quot;&#10;            app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;            app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;            app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;            app:layout_constraintTop_toTopOf=&quot;parent&quot;" description="center the view in a constraint layout" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="observeResourceFragment" value="presenter.$liveData$.observe(requireActivity(), Observer { resource -&gt;&#10;            binding.progressBar.isVisible = resource is Loading&#10;            binding.retryView.isVisible = resource is NetworkError&#10;            binding.recyclerView.isVisible = resource is Success&#10;            when (resource) {&#10;                is Success -&gt; showSuccessAlerter(&#10;                    getString(R.string.saved_successfully),&#10;                    onHideAction = {&#10;                        $action$&#10;                    })&#10;                is NetworkError -&gt; showErrorAlert(&#10;                    requireActivity(),&#10;                    appCoordinator = appCoordination,&#10;                    message = resource.message&#10;                )&#10;            }&#10;        })" description="same as observeResource but for a fragment" toReformat="false" toShortenFQNames="true">
+    <variable name="liveData" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="epoxyFragment" value="&#10;&#10;    @Inject&#10;    lateinit var appCoordination: AppCoordination&#10;    private lateinit var binding: Fragment$VAR$Binding&#10;&#10;    @Inject&#10;    lateinit var factory: ViewModelProvider.Factory&#10;        // todo add fragment factory injector to dagger module&#10;        //  @ContributesAndroidInjector&#10;        //  abstract fun $VAR$Fragment(): $VAR$Fragment&#10;&#10;    val presenter: $VAR$Presenter by viewModels { factory }&#10;    &#10;    // todo runtime configurable presenter to add to dagger module&#10;    //@Binds&#10;    //@IntoMap&#10;    //@ViewModelKey($VAR$Presenter::class)&#10;    //internal abstract fun $VAR$Presenter(presenter: $VAR$Fragment): ViewModel&#10;        &#10;    // todo or add for presenter with runtime dependencies&#10;    //private val presenter: $VAR$Presenter by lazy {&#10;    //    viewModel {&#10;    //        $VAR$Presenter(resources)&#10;    //    }&#10;    // } &#10;    &#10;    lateinit var controller: $VAR$Controller&#10;&#10;    override fun onCreate(savedInstanceState: Bundle?) {&#10;        AndroidSupportInjection.inject(this)&#10;        super.onCreate(savedInstanceState)&#10;        //TODO make presenter setup calls here&#10;    }&#10;&#10;    override fun onCreateView(&#10;        inflater: LayoutInflater, container: ViewGroup?,&#10;        savedInstanceState: Bundle?&#10;    ): View? {&#10;        binding =&#10;            Fragment$VAR$Binding.inflate(&#10;                inflater, container, false&#10;            )&#10;        activity?.title = getString(R.string.$VAR$)&#10;        return binding.root&#10;    }&#10;&#10;    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {&#10;        super.onViewCreated(view, savedInstanceState)&#10;        setupLiveData()&#10;        setupRecyclerView()&#10;    }&#10;&#10;    private fun setupRecyclerView() {&#10;        controller = $VAR$Controller(this)&#10;        binding.epoxyList.adapter = controller.adapter&#10;    }&#10;&#10;    private fun setupLiveData() {&#10;    }&#10;&#10;}" description="Fill in the fragment with boiler plate and epoxy controller" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="epoxyListPresenter" value="&#10;import androidx.lifecycle.MutableLiveData&#10;import androidx.lifecycle.ViewModel&#10;import com.neighbor.repositories.Resource&#10;import javax.inject.Inject&#10;&#10;class $VAR$Presenter @Inject constructor(): ViewModel() {&#10;    val items = MutableLiveData&lt;Resource&lt;$VAR$ListItem&gt;&gt;()&#10;&#10;     init {&#10;        TODO(&quot;fetch data and map to SearchResultsListItem&quot;)&#10;    }&#10;}&#10;&#10;sealed class $VAR$ListItem {&#10;    object $VAR$Item: $VAR$ListItem()&#10;    object EmptyStateItem: $VAR$ListItem()&#10;}" description="Fill in the viewmodel with epoxy list boiler plate" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="navargs" value="private val args by navArgs&lt;$VAR$FragmentArgs&gt;()&#10;" description="insert navArgs from safeArgs" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="guideline_vert_50" value="&lt;androidx.constraintlayout.widget.Guideline&#10;        android:id=&quot;@+id/guideline_vert_50&quot;&#10;        android:layout_width=&quot;0dp&quot;&#10;        android:layout_height=&quot;0dp&quot;&#10;        android:orientation=&quot;vertical&quot;&#10;        app:layout_constraintGuide_percent=&quot;.5&quot; /&gt;" description="Add a vertical guideline half down the middle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="gradleKts" value="plugins {&#10;    id(&quot;com.android.library&quot;)&#10;    kotlin(&quot;android&quot;)&#10;    kotlin(&quot;android.extensions&quot;)&#10;    kotlin(&quot;kapt&quot;)&#10;    id(&quot;androidx.navigation.safeargs&quot;)&#10;}&#10;android {&#10;    defaultConfig {&#10;        compileSdkVersion(29)&#10;        minSdkVersion(21)&#10;    }&#10;    compileOptions {&#10;        sourceCompatibility = JavaVersion.VERSION_1_8&#10;        targetCompatibility = JavaVersion.VERSION_1_8&#10;    }&#10;&#10;    kotlinOptions {&#10;        jvmTarget = JavaVersion.VERSION_1_8.toString()&#10;    }&#10;    buildFeatures {&#10;        dataBinding = true&#10;        viewBinding = true&#10;    }&#10;     testOptions {&#10;        unitTests.isIncludeAndroidResources = true&#10;    }&#10;}&#10;dependencies {&#10;    implementation(fileTree(mapOf(&quot;dir&quot; to &quot;libs&quot;, &quot;include&quot; to listOf(&quot;*.jar&quot;))))&#10;    implementKotlin(org.jetbrains.kotlin.config.KotlinCompilerVersion.VERSION)&#10;    implementation(Deps.appCompat)&#10;    implementation(Deps.constraintLayout)&#10;    implementation(Deps.fragmentKtx)&#10;    implementation(Deps.viewModels)&#10;    implementAppCoordination()&#10;    implementAppResources()&#10;    implementArchitectureComponents()&#10;    implementDagger2()&#10;    implementEpoxy()&#10;    implementMoshiSealed()&#10;    implementRepositories()&#10;    implementRetrofit()&#10;    implementTesting()&#10;    implementUtils()&#10;}" description="Boilerplate for new gradle.build.kts module file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="epoxyModel" value="import android.widget.TextView&#10;import com.airbnb.epoxy.EpoxyModelWithHolder&#10;import com.neighbor.utils.ui.epoxy.KotlinEpoxyHolder&#10;&#10;class $NAME$ : EpoxyModelWithHolder&lt;$NAME$.ViewHolder&gt;() {&#10;    override fun bind(holder: ViewHolder) {&#10;        super.bind(holder)&#10;        $END$&#10;    }&#10;    inner class ViewHolder : KotlinEpoxyHolder() {&#10;        val title: TextView by bind(R.id.title)&#10;    }&#10;&#10;    override fun getDefaultLayout(): Int = R.layout.layout_$VAR_SNAKE$&#10;&#10;    override fun createNewHolder(): ViewHolder = ViewHolder()&#10;}" description="Create epoxy model with KotlinEpoxyHolder" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_SNAKE" expression="snakeCase(NAME)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="epoxyListXml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;androidx.constraintlayout.widget.ConstraintLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;    xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;    xmlns:tools=&quot;http://schemas.android.com/tools&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;match_parent&quot;&#10;    tools:context=&quot;com.neighbor.android.ui.emailconfirmation.EmailConfirmationActivity&quot;&gt;&#10;&#10;&#10;    &lt;com.neighbor.utils.ui.LoadingView&#10;        android:id=&quot;@+id/loadingView&quot;&#10;        android:background=&quot;?attr/colorSurface&quot;&#10;        android:layout_width=&quot;@dimen/match_constraint&quot;&#10;        android:layout_height=&quot;@dimen/match_constraint&quot;&#10;        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;        app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;        app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;        app:layout_constraintTop_toTopOf=&quot;parent&quot; /&gt;&#10;&#10;    &lt;com.neighbor.utils.ui.RetryView&#10;        android:id=&quot;@+id/retryView&quot;&#10;        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;        app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;        app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;        app:layout_constraintTop_toTopOf=&quot;parent&quot;&#10;        android:background=&quot;?attr/colorSurface&quot;&#10;        android:layout_width=&quot;@dimen/match_constraint&quot;&#10;        android:layout_height=&quot;@dimen/match_constraint&quot;/&gt;&#10;&#10;    &lt;com.airbnb.epoxy.EpoxyRecyclerView&#10;        android:id=&quot;@+id/epoxyList&quot;&#10;        android:layout_width=&quot;@dimen/match_constraint&quot;&#10;        android:layout_height=&quot;@dimen/match_constraint&quot;&#10;        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;        app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;        app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;        app:layout_constraintTop_toTopOf=&quot;parent&quot; /&gt;&#10;&#10;&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt; " description="create matching epoxyList xml with retry and loading views" toReformat="false" toShortenFQNames="true" />
+  <template name="epoxyList, retry, and loading" value="   &lt;com.airbnb.epoxy.EpoxyRecyclerView&#10;        android:id=&quot;@+id/epoxyList&quot;&#10;        android:layout_width=&quot;@dimen/match_constraint&quot;&#10;        android:layout_height=&quot;@dimen/match_constraint&quot;&#10;        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;        app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;        app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;        app:layout_constraintTop_toTopOf=&quot;parent&quot; /&gt;&#10;&#10;    &lt;com.neighbor.utils.ui.RetryView&#10;        android:id=&quot;@+id/retryView&quot;&#10;        android:layout_width=&quot;@dimen/match_constraint&quot;&#10;        android:layout_height=&quot;@dimen/match_constraint&quot;&#10;        android:background=&quot;?attr/colorSurface&quot;&#10;        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;        app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;        app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;        app:layout_constraintTop_toTopOf=&quot;parent&quot; /&gt;&#10;&#10;    &lt;com.neighbor.utils.ui.LoadingView&#10;        android:id=&quot;@+id/loadingView&quot;&#10;        android:layout_width=&quot;@dimen/match_constraint&quot;&#10;        android:layout_height=&quot;@dimen/match_constraint&quot;&#10;        android:background=&quot;?attr/colorSurface&quot;&#10;        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;        app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;        app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;        app:layout_constraintTop_toTopOf=&quot;parent&quot; /&gt;" description="Adds an epoxyRecyclerView a RetryView and LoadingView to xml" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="test" value="@Test&#10;fun `$NAME$`() {&#10;    $END$&#10;}" description="create new test function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
