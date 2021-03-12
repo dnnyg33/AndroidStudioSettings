@@ -22,6 +22,7 @@
         <entry key="authentication/src/main/res/layout/fragment_onboarding_slide.xml" value="0.21574074074074073" />
         <entry key="chat/src/main/res/layout/chat_item_layout.xml" value="0.21574074074074073" />
         <entry key="chat/src/main/res/layout/fragment_chat_thread.xml" value="0.21574074074074073" />
+        <entry key="chat/src/main/res/layout/fragment_chat_threads_list.xml" value="0.1648148148148148" />
         <entry key="chat/src/main/res/layout/layout_my_user_message.xml" value="0.1" />
         <entry key="chat/src/main/res/layout/layout_other_user_message.xml" value="0.1" />
         <entry key="earnings/src/main/res/drawable/ic_info_circle.xml" value="0.1" />
