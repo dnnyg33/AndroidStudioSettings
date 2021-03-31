@@ -1,8 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping ext="graphql" type="GraphQL" />
-      <mapping ext="graphql" type="Groovy" />
       <mapping ext="webp" type="Image" />
       <mapping pattern="ExifUtil" type="JAVA" />
       <mapping ext="main.kts" type="Kotlin" />
