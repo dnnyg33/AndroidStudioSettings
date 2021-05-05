@@ -4,7 +4,4 @@
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="cfalse" value="`false`" description="puts false in a comment section" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
 </templateSet>
