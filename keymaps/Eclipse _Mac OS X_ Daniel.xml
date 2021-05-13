@@ -33,6 +33,9 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="meta button1" />
   </action>
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+  </action>
   <action id="IntroduceConstant">
     <keyboard-shortcut first-keystroke="ctrl meta k" />
   </action>
