@@ -17,7 +17,7 @@
         <entry key="appresources/src/main/res/drawable/ic_messages_hollow.xml" value="0.13425925925925927" />
         <entry key="appresources/src/main/res/drawable/ic_neighbor_warning.xml" value="0.2564814814814815" />
         <entry key="appresources/src/main/res/layout/row_neighbor_renter_protection.xml" value="0.41354166666666664" />
-        <entry key="apps/features/feature-globalscanner-sample/src/main/res/layout/product_tile_overlay_fragment.xml" value="0.1" />
+        <entry key="apps/features/feature-globalscanner-sample/src/main/res/layout/product_tile_overlay_fragment.xml" value="0.23986828774062816" />
         <entry key="apps/features/feature-shop-sample/src/main/res/layout/sample_app_fragment_services_grid.xml" value="0.1" />
         <entry key="authentication/src/main/res/drawable/landing_bg_gradient.xml" value="0.2564814814814815" />
         <entry key="authentication/src/main/res/layout/fragment_initial_role_selection.xml" value="0.2206180344478217" />
