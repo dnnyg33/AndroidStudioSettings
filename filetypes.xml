@@ -1,16 +1,16 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="webp" type="Image" />
       <mapping pattern="ExifUtil" type="JAVA" />
-      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="ViewModelFactoryExtensions" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="ExtensionFunctions.kt" type="Kotlin/Native Def" />
       <mapping pattern="mockito-extensions" type="PLAIN_TEXT" />
       <mapping pattern="circle_background_launcher.xml" type="PLAIN_TEXT" />
       <mapping pattern=".graphqlconfig" type="PLAIN_TEXT" />
-      <mapping ext="rulesetprovider" type="PLAIN_TEXT" />
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
+      <mapping ext="rulesetprovider" type="PLAIN_TEXT" />
       <mapping pattern="circle_background_launcher" type="XML" />
     </extensionMap>
   </component>
