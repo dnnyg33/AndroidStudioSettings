@@ -36,8 +36,10 @@
         <entry key="earnings/src/main/res/layout/layout_earnings_card.xml" value="0.38247213779128675" />
         <entry key="earnings/src/main/res/layout/layout_earnings_carousel_row.xml" value="0.38247213779128675" />
         <entry key="earnings/src/main/res/layout/layout_monthly_breakdown_transfer.xml" value="0.38247213779128675" />
+        <entry key="features/connect/feature-pay/src/main/res/layout/pay_store_summary_fragment.xml" value="0.1" />
         <entry key="features/contentpages/feature-contentpages/src/main/res/layout/contentpages_fragment_root.xml" value="0.1675925925925926" />
         <entry key="features/notificationcenter/feature-notificationcenter/src/main/res/layout/notification_center_item.xml" value="0.21479229989868287" />
+        <entry key="features/notificationcenter/feature-notificationcenter/src/main/res/layout/notification_center_view.xml" value="0.22163120567375885" />
         <entry key="features/shop/feature-shop/src/main/res/layout/shop_fragment_shop_root.xml" value="0.1" />
         <entry key="features/shop/feature-shop/src/main/res/layout/shop_notification_center.xml" value="0.1" />
         <entry key="features/tempo/feature-tempo-shared/src/main/res/layout/tempo_shared_heading_banner_view.xml" value="0.38120567375886527" />
