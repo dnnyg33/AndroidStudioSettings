@@ -42,6 +42,8 @@
         <entry key="features/notificationcenter/feature-notificationcenter/src/main/res/layout/notification_center_view.xml" value="0.22163120567375885" />
         <entry key="features/shop/feature-shop/src/main/res/layout/shop_fragment_shop_root.xml" value="0.1" />
         <entry key="features/shop/feature-shop/src/main/res/layout/shop_notification_center.xml" value="0.1" />
+        <entry key="features/shop/feature-shop/src/main/res/layout/shop_order_status_tracker.xml" value="0.1" />
+        <entry key="features/shop/feature-shop/src/main/res/layout/shop_order_status_tracker_view.xml" value="0.22391084093211752" />
         <entry key="features/tempo/feature-tempo-shared/src/main/res/layout/tempo_shared_heading_banner_view.xml" value="0.38120567375886527" />
         <entry key="features/tempo/feature-tempo-shared/src/main/res/layout/tempo_shared_internal_heading_banner_view.xml" value="0.37436676798378926" />
         <entry key="features/tempo/feature-tempo-shared/src/main/res/layout/tempo_shared_internal_store_map_banner.xml" value="0.2449341438703141" />
