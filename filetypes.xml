@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="ExifUtil" type="JAVA" />
       <mapping pattern="ViewModelFactoryExtensions" type="Kotlin" />
@@ -12,6 +12,8 @@
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <mapping ext="rulesetprovider" type="PLAIN_TEXT" />
       <mapping pattern="circle_background_launcher" type="XML" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
   </component>
 </application>
