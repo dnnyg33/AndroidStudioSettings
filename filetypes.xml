@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="fragment_flag.xml" type="AUTO_DETECTED" />
       <mapping pattern="ExifUtil" type="JAVA" />
       <mapping pattern="ViewModelFactoryExtensions" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
