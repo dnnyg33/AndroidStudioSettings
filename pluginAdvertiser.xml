@@ -146,6 +146,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.cpt">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.thoughtworks.gauge" />
+              <option name="myPluginName" value="Gauge" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.dcx">
           <value>
             <plugin>
@@ -1022,6 +1030,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.spec">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.thoughtworks.gauge" />
+              <option name="myPluginName" value="Gauge" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.svg">
           <value>
             <plugin>
@@ -1463,6 +1479,11 @@
                   <entry key="TestNG">
                     <value>
                       <FeaturePluginData displayName="TestNG" pluginName="TestNG" pluginId="TestNG-J" />
+                    </value>
+                  </entry>
+                  <entry key="executeSpecs">
+                    <value>
+                      <FeaturePluginData displayName="Gauge Execution" pluginName="Gauge" pluginId="com.thoughtworks.gauge" />
                     </value>
                   </entry>
                 </map>
