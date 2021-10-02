@@ -16,6 +16,7 @@
     <mask>*.json</mask>
     <mask>*.gradle</mask>
     <mask>*.xml</mask>
+    <mask>*Test.kt</mask>
     <mask>*.kt</mask>
   </component>
 </application>
