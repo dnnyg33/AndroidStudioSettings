@@ -1,3 +1,5 @@
 <templateSet group="Dart">
-  <template name="sout" value="print('$END$');" description="print to standard out" toReformat="true" toShortenFQNames="true" />
+  <template name="sout" value="print('$END$');" description="print to standard out" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
