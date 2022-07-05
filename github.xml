@@ -1,11 +1,7 @@
 <application>
   <component name="GithubAccounts">
-    <account id="78aaf1b1-9664-4617-b2a4-806f71f83a96" name="vn51rwz">
+    <account name="vn51rwz" id="78aaf1b1-9664-4617-b2a4-806f71f83a96">
       <server useHttp="false" host="gecgithub01.walmart.com" />
     </account>
-  </component>
-  <component name="GithubSettings">
-    <option name="LOGIN" value="jordancarlson08@gmail.com" />
-    <option name="AUTH_TYPE" value="BASIC" />
   </component>
 </application>
