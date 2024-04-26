@@ -1,0 +1,10 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="d0g0aio" id="1940bdcc-287e-4261-99cd-edb25d1f5cac">
+      <server useHttp="false" host="gecgithub01.walmart.com" />
+    </account>
+    <account name="dnnyg33" id="cac58f5c-013e-4d27-8279-21c309db6454">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
