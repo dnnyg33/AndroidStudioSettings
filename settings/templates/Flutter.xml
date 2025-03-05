@@ -28,4 +28,15 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="logd" value="log.d('$CLASS_NAME$: ${$END$}');" description="insert log statement" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="dartClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="analyticEvent" value="GetIt.I&lt;Analytics&gt;().log(AnalyticsEvent.$END$)" description="prepare to log an analytic event" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -1,3 +1,5 @@
+com.samuraism.plugins.kasumi
 Dart
+PythonCore
 com.github.copilot
 io.flutter

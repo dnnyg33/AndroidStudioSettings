@@ -33,6 +33,9 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="meta button1" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
@@ -62,6 +65,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="XDebugger.Inspect" />
   <action id="XDebugger.NewWatch">
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
