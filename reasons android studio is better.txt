@@ -1,0 +1,20 @@
+reasons android studio is better
+
+clicking on errors for files with ../../ actually goes to the error
+comment moves down a line
+cmd+1 shortcut
+interfaces can be clicked through
+vcs/merge tools are better
+tab auto completion doesn't overwrite words
+option + arrow navigation recognizes distinct words in camel/pascal case
+shortcut to remove all unused imports
+floating tool windows maximizes use of dual monitors
+find usages is faster and automatically shows in window so that it doesn't disappear when any click occurs
+class lookup and other finds don't erase previously entered text
+don't need to press save, ever
+
+
+reasons its worse
+auto format doesn't run with each save command
+file structure feels less cluttered/more easily navigable
+Live pairing
