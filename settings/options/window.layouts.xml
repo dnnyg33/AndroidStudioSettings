@@ -1,0 +1,1299 @@
+<application>
+  <component name="ToolWindowLayout"><![CDATA[{
+  "activeLayoutName": "clubhouse2",
+  "layouts": {
+    "one window - screenshare": {
+      "v2": [
+        {
+          "id": "Bookmarks",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Structure",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Pull Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "weight": 0.25
+        },
+        {
+          "id": "Resources Explorer",
+          "order": 2,
+          "weight": 0.25
+        },
+        {
+          "id": "Welcome to GitHub Copilot",
+          "order": 3,
+          "weight": 0.32969576
+        },
+        {
+          "id": "Services",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "clangd",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "App Inspection",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Build",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Flutter Outline",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Flutter Performance",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Layout Validation",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Device Explorer",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "App Links Assistant",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Meet New UI",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Flutter Inspector",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Find",
+          "order": 0,
+          "anchor": "RIGHT",
+          "weight": 0.5549479
+        },
+        {
+          "id": "Debug",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Run",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.4658854
+        },
+        {
+          "id": "Terminal",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Dart Analysis",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Version Control",
+          "order": 5,
+          "anchor": "RIGHT",
+          "weight": 0.56640625
+        },
+        {
+          "id": "TODO",
+          "order": 6,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Problems View",
+          "order": 7,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Notifications",
+          "order": 8,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Gradle",
+          "order": 9,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager",
+          "order": 10,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager 2",
+          "order": 11,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "github.copilotToolWindow",
+          "order": 12,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Running Devices",
+          "order": 13,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "GitHub Copilot Chat",
+          "order": 14,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Logcat",
+          "order": 15,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "App Quality Insights",
+          "order": 16,
+          "anchor": "RIGHT",
+          "isVisible": true,
+          "weight": 0.56640625
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.33,
+        "bottom": 0.5663507,
+        "right": 0.56640625
+      }
+    },
+    "clubhouse2": {
+      "v2": [
+        {
+          "id": "Bookmarks",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Merge Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Pull Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Structure",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "DFA",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "floatingBounds": [
+            598,
+            73,
+            356,
+            994
+          ],
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.11621094
+        },
+        {
+          "id": "Resources Explorer",
+          "order": 2,
+          "weight": 0.25
+        },
+        {
+          "id": "Welcome to GitHub Copilot",
+          "order": 3,
+          "weight": 0.32969576
+        },
+        {
+          "id": "clangd",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "App Inspection",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Android Profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Services",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Messages",
+          "order": 0,
+          "anchor": "BOTTOM",
+          "isActiveOnStart": true,
+          "isShowStripeButton": false,
+          "weight": 0.16848958
+        },
+        {
+          "id": "Python Packages",
+          "order": 1,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Build",
+          "order": 2,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Flutter Outline",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Device Explorer",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "App Links Assistant",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Flutter Performance",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Coverage",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Layout Validation",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Meet New UI",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Flutter Inspector",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Find",
+          "order": 0,
+          "anchor": "RIGHT",
+          "weight": 0.5548828
+        },
+        {
+          "id": "Debug",
+          "order": 1,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            635,
+            38,
+            1093,
+            560
+          ],
+          "weight": 0.5548828
+        },
+        {
+          "id": "Flutter DevTools",
+          "order": 2,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Run",
+          "order": 3,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            623,
+            420,
+            1105,
+            696
+          ],
+          "weight": 0.19472656
+        },
+        {
+          "id": "Terminal",
+          "order": 4,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            405,
+            110,
+            1105,
+            539
+          ],
+          "weight": 0.084179685
+        },
+        {
+          "id": "Dart Analysis",
+          "order": 5,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            642,
+            484,
+            1086,
+            633
+          ],
+          "weight": 0.33046874
+        },
+        {
+          "id": "StudioBot",
+          "order": 6,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Flutter DevTools Extensions",
+          "order": 7,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Version Control",
+          "order": 8,
+          "anchor": "RIGHT",
+          "weight": 0.56640625
+        },
+        {
+          "id": "TODO",
+          "order": 9,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Problems View",
+          "order": 10,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Notifications",
+          "order": 11,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Gradle",
+          "order": 12,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager",
+          "order": 13,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Python Console",
+          "order": 14,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Device Manager 2",
+          "order": 15,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "github.copilotToolWindow",
+          "order": 16,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "weight": 0.19472656
+        },
+        {
+          "id": "Running Devices",
+          "order": 17,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "GitHub Copilot Chat",
+          "order": 18,
+          "anchor": "RIGHT",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.19472656
+        },
+        {
+          "id": "Flutter Deep Links",
+          "order": 19,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "weight": 0.31931514
+        },
+        {
+          "id": "Augment",
+          "order": 20,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            3174,
+            102,
+            1089,
+            843
+          ],
+          "type": "WINDOWED",
+          "isShowStripeButton": false,
+          "weight": 0.5550926
+        },
+        {
+          "id": "Flutter Property Editor",
+          "order": 21,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Logcat",
+          "order": 22,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "App Quality Insights",
+          "order": 23,
+          "anchor": "RIGHT",
+          "weight": 0.17175926
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.11621094,
+        "bottom": 0.5663507,
+        "right": 0.19472656
+      }
+    },
+    "home layout large dp": {
+      "v2": [
+        {
+          "id": "Bookmarks",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Merge Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Pull Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Build Variants",
+          "isShowStripeButton": false,
+          "weight": 0.17436835,
+          "isSplit": true
+        },
+        {
+          "id": "Structure",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "DFA",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "weight": 0.26990741
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "floatingBounds": [
+            2806,
+            -96,
+            356,
+            1440
+          ],
+          "type": "WINDOWED",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.26990741
+        },
+        {
+          "id": "Resources Explorer",
+          "order": 2,
+          "weight": 0.25
+        },
+        {
+          "id": "Welcome to GitHub Copilot",
+          "order": 3,
+          "weight": 0.32969576
+        },
+        {
+          "id": "clangd",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "App Inspection",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Android Profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Services",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Python Packages",
+          "order": 0,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Build",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "GitHub Copilot MCP Log",
+          "order": 2,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Messages",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "isActiveOnStart": true,
+          "isShowStripeButton": false,
+          "weight": 0.16848958
+        },
+        {
+          "id": "Find",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "floatingBounds": [
+            2824,
+            951,
+            1443,
+            576
+          ],
+          "type": "WINDOWED",
+          "weight": 0.25338542
+        },
+        {
+          "id": "Terminal",
+          "order": 5,
+          "anchor": "BOTTOM",
+          "floatingBounds": [
+            4273,
+            115,
+            1091,
+            595
+          ],
+          "isVisible": true,
+          "weight": 0.15182292,
+          "isSplit": true
+        },
+        {
+          "id": "Flutter Outline",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Device Explorer",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "App Links Assistant",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Flutter Performance",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Coverage",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Layout Validation",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Meet New UI",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Flutter Inspector",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Debug",
+          "order": 0,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            4278,
+            -92,
+            1093,
+            802
+          ],
+          "type": "WINDOWED",
+          "isVisible": true,
+          "weight": 0.5550926
+        },
+        {
+          "id": "Run",
+          "order": 1,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            3167,
+            648,
+            1105,
+            696
+          ],
+          "type": "WINDOWED",
+          "isVisible": true,
+          "weight": 0.5550926
+        },
+        {
+          "id": "Flutter DevTools",
+          "order": 2,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Dart Analysis",
+          "order": 3,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            4277,
+            711,
+            1086,
+            633
+          ],
+          "type": "WINDOWED",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.5550926
+        },
+        {
+          "id": "StudioBot",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Flutter DevTools Extensions",
+          "order": 5,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Version Control",
+          "order": 6,
+          "anchor": "RIGHT",
+          "weight": 0.56640625
+        },
+        {
+          "id": "TODO",
+          "order": 7,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Problems View",
+          "order": 8,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Notifications",
+          "order": 9,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Gradle",
+          "order": 10,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager",
+          "order": 11,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Python Console",
+          "order": 12,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Device Manager 2",
+          "order": 13,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "github.copilotToolWindow",
+          "order": 14,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Running Devices",
+          "order": 15,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "GitHub Copilot Chat",
+          "order": 16,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            3166,
+            -93,
+            1106,
+            740
+          ],
+          "type": "WINDOWED",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.5550926
+        },
+        {
+          "id": "Flutter Deep Links",
+          "order": 17,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "weight": 0.31931514
+        },
+        {
+          "id": "Logcat",
+          "order": 18,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "App Quality Insights",
+          "order": 19,
+          "anchor": "RIGHT",
+          "weight": 0.17175926
+        },
+        {
+          "id": "Augment",
+          "order": 20,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            3174,
+            102,
+            1089,
+            843
+          ],
+          "type": "WINDOWED",
+          "weight": 0.5550926
+        },
+        {
+          "id": "Assistant",
+          "order": 21,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "weight": 0.52824074
+        },
+        {
+          "id": "Flutter Property Editor",
+          "order": 22,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.26990741,
+        "bottom": 0.15182292,
+        "right": 0.5550926
+      }
+    },
+    "home layout 1440": {
+      "v2": [
+        {
+          "id": "Bookmarks",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Merge Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Backup and Sync History",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Pull Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Build Variants",
+          "isShowStripeButton": false,
+          "weight": 0.17436835,
+          "isSplit": true
+        },
+        {
+          "id": "Structure",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "DFA",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.26990741
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "floatingBounds": [
+            2815,
+            -96,
+            356,
+            1440
+          ],
+          "type": "WINDOWED",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.26990741
+        },
+        {
+          "id": "Resources Explorer",
+          "order": 2,
+          "weight": 0.25
+        },
+        {
+          "id": "Welcome to GitHub Copilot",
+          "order": 3,
+          "weight": 0.32969576
+        },
+        {
+          "id": "clangd",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "App Inspection",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Android Profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Services",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Python Packages",
+          "order": 0,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Build",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Messages",
+          "order": 2,
+          "anchor": "BOTTOM",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.25338542
+        },
+        {
+          "id": "GitHub Copilot MCP Log",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Find",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "floatingBounds": [
+            2827,
+            768,
+            1443,
+            576
+          ],
+          "type": "WINDOWED",
+          "isVisible": true,
+          "weight": 0.25338542
+        },
+        {
+          "id": "Flutter Outline",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Device Explorer",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "App Links Assistant",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Flutter Performance",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Coverage",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Layout Validation",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Meet New UI",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Flutter Inspector",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Debug",
+          "order": 0,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            3178,
+            -96,
+            1093,
+            866
+          ],
+          "type": "WINDOWED",
+          "isVisible": true,
+          "weight": 0.5550926
+        },
+        {
+          "id": "Run",
+          "order": 1,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            4263,
+            -73,
+            1105,
+            770
+          ],
+          "type": "WINDOWED",
+          "isVisible": true,
+          "weight": 0.5550926
+        },
+        {
+          "id": "Flutter DevTools",
+          "order": 2,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Terminal",
+          "order": 3,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            4272,
+            100,
+            1091,
+            595
+          ],
+          "type": "WINDOWED",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.5550926
+        },
+        {
+          "id": "Dart Analysis",
+          "order": 4,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            4271,
+            698,
+            1547,
+            790
+          ],
+          "type": "WINDOWED",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.5550926
+        },
+        {
+          "id": "StudioBot",
+          "order": 5,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Flutter DevTools Extensions",
+          "order": 6,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Version Control",
+          "order": 7,
+          "anchor": "RIGHT",
+          "weight": 0.56640625
+        },
+        {
+          "id": "TODO",
+          "order": 8,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Problems View",
+          "order": 9,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "Notifications",
+          "order": 10,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Gradle",
+          "order": 11,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager",
+          "order": 12,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Python Console",
+          "order": 13,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Device Manager 2",
+          "order": 14,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "github.copilotToolWindow",
+          "order": 15,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Running Devices",
+          "order": 16,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "GitHub Copilot Chat",
+          "order": 17,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Flutter Deep Links",
+          "order": 18,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "weight": 0.31931514
+        },
+        {
+          "id": "Logcat",
+          "order": 19,
+          "anchor": "RIGHT",
+          "weight": 0.33046874
+        },
+        {
+          "id": "App Quality Insights",
+          "order": 20,
+          "anchor": "RIGHT",
+          "weight": 0.17175926
+        },
+        {
+          "id": "Augment",
+          "order": 21,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            3174,
+            102,
+            1089,
+            843
+          ],
+          "type": "WINDOWED",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.5550926
+        },
+        {
+          "id": "Flutter Property Editor",
+          "order": 22,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "ElectroJunToolWindow",
+          "order": 23,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            201,
+            157,
+            1094,
+            869
+          ],
+          "type": "WINDOWED",
+          "isShowStripeButton": false,
+          "weight": 0.5550926
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.26990741,
+        "bottom": 0.25338542,
+        "right": 0.5550926
+      }
+    }
+  }
+}]]></component>
+</application>

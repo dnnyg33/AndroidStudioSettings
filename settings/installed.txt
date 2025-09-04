@@ -1,5 +1,8 @@
-com.samuraism.plugins.kasumi
+com.intellij.marketplace
+com.anthropic.code.plugin
 Dart
 PythonCore
+org.jetbrains.junie
+com.samuraism.plugins.kasumi
 com.github.copilot
 io.flutter

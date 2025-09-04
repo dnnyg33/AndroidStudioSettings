@@ -1,5 +1,13 @@
 <application>
   <component name="github-copilot">
     <option name="signinNotificationShown" value="true" />
+    <languageAllowList>
+      <map>
+        <entry key="*" value="true" />
+      </map>
+    </languageAllowList>
+    <option name="showIdeCompletions" value="true" />
+    <option name="preferredAccount" value="cac58f5c-013e-4d27-8279-21c309db6454" />
+    <option name="chatNaturalLanguage" value="English" />
   </component>
 </application>

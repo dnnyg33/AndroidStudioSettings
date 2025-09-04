@@ -1,12 +1,18 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine sherpa" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
+        <option value="package:mine conductor" />
+        <option value="package:com.chatbooks notification" />
+        <option value="chatbooks" />
+        <option value="package:mine" />
+        <option value="package:mine is:error " />
+        <option value="package:mine is:error flutter" />
+        <option value="package:mine analytics" />
         <option value="package:mine sherpa" />
         <option value="error" />
         <option value="onerror" />
-        <option value="package:mine " />
         <option value="package:mine AmendsFatovInAppBannerProvider" />
         <option value="package:mine Floating add" />
         <option value="package:mine Floating" />
@@ -16,12 +22,6 @@
         <option value="package:mine anivia click" />
         <option value="package:mine anivia page" />
         <option value="package:mine aniviatracker pageview" />
-        <option value="package:mine aniviatracker close" />
-        <option value="package:mine aniviatracker " />
-        <option value="package:mine aniviatracker act&quot;:&quot;on" />
-        <option value="package:mine anivia confirmCancellation" />
-        <option value="package:mine anivia cancel" />
-        <option value="package:mine anivia" />
       </list>
     </option>
   </component>

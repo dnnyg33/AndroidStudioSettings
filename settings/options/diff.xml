@@ -10,6 +10,11 @@
           <option name="READ_ONLY_LOCK" value="false" />
         </PlaceSettings>
       </entry>
+      <entry key="Default">
+        <PlaceSettings>
+          <option name="SHOW_INDENT_LINES" value="true" />
+        </PlaceSettings>
+      </entry>
     </option>
   </component>
 </application>

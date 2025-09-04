@@ -1,8 +1,20 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+      <component name="AutoImportSettings">
+        <option name="autoReloadType" value="NONE" />
+      </component>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "project.propDebugger"
+  }
+}]]></component>
+      <component name="VcsDirectoryMappings" defaultProject="true" />
+      <component name="WindowStateProjectService">
+        <state x="296" y="261" key="SettingsEditor" timestamp="1754443849643">
+          <screen x="0" y="38" width="1728" height="994" />
+        </state>
+        <state x="296" y="261" key="SettingsEditor/0.38.1728.994" timestamp="1754443849643" />
       </component>
     </defaultProject>
   </component>

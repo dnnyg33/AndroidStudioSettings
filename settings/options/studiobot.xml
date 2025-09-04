@@ -1,0 +1,117 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="acceptedTermsVersion" value="3" />
+    <option name="contextSharingModeV2" value="AlwaysShare" />
+    <option name="dasherProductVariant" value="Free" />
+    <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1754949490229">find a different example</historyEntry>
+        <historyEntry timestamp="1754949463873">find an example where we're checking the value of an ab test flag</historyEntry>
+        <historyEntry timestamp="1754502369952">this is my gradle.properties file for my project, and i don't have gradle.properties file at the system level
+# Project-wide Gradle settings.
+# IDE (e.g. Android Studio) users:
+# Gradle settings configured through the IDE *will override*
+# any settings specified in this file.
+# For more details on how to configure your build environment visit
+# http://www.gradle.org/docs/current/userguide/build_environment.html
+# Specifies the JVM arguments used for the daemon process.
+# The setting is particularly useful for tweaking memory settings.
+# Default value: -Xmx10248m -XX:MaxPermSize=256m
+#org.gradle.jvmargs=-Xmx2048m -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
+org.gradle.jvmargs=-Xmx8704m  -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
+# When configured, Gradle will run in incubating parallel enabled.
+# This option should only be used with decoupled projects. More details, visit
+# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects
+org.gradle.parallel=true
+org.gradle.daemon=true
+org.gradle.configureondemand=false
+org.gradle.caching=true
+secure.properties=../secure.properties
+android.useAndroidX=true
+android.enableJetifier=true
+kotlin.incremental=true</historyEntry>
+        <historyEntry timestamp="1754502176927">i see
+you have jvm property https.proxyHost set to 127.0.0.1. This may lead to incorrect behaviour.</historyEntry>
+        <historyEntry timestamp="1754502034177">I'm getting the following error while building my project. The error is: Connect to 127.0.0.1:9090 [/127.0.0.1] failed: Connection refused
+```
+Execution failed for task ':rudder_plugin_android:compileDebugJavaWithJavac'.
+&gt; Could not resolve all files for configuration ':rudder_plugin_android:debugCompileClasspath'.
+   &gt; Could not resolve com.rudderstack.android.sdk:core:[1.24.0, 2.0.0).
+     Required by:
+         project :rudder_plugin_android
+      &gt; Failed to list versions for com.rudderstack.android.sdk:core.
+         &gt; Unable to load Maven meta-data from https://repo.maven.apache.org/maven2/com/rudderstack/android/sdk/core/maven-metadata.xml.
+            &gt; Could not HEAD 'https://repo.maven.apache.org/maven2/com/rudderstack/android/sdk/core/maven-metadata.xml'.
+               &gt; Got socket exception during request. It might be caused by SSL misconfiguration
+                  &gt; Connect to 127.0.0.1:9090 [/127.0.0.1] failed: Connection refused
+...
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+```
+How do I fix this?</historyEntry>
+        <historyEntry timestamp="1753206163128">show me an example of launching a flutter view/activity/widget/component from the android app</historyEntry>
+        <historyEntry timestamp="1753203972116">I'm getting the following error while syncing my project. The error is: CMake Error: The source directory &quot;/Users/danielgeorge/Developer/Git/fluttershy/packages/cb_page_layout_ffi/libcbpagelayout&quot; does not appear to contain CMakeLists.txt. Specify --help for usage, or press the help button on the CMake GUI. : com.android.ide.common.process.ProcessException: C++ build system [configure] failed while executing: /Users/danielgeorge/Library/Android/sdk/cmake/3.22.1/bin/cmake \ -H/Users/danielgeorge/Developer/Git/fluttershy/packages/cb_page_layout_ffi/libcbpagelayout \ -
+```
+$ ./gradlew :prepareKotlinBuildScriptModel
+CMake Error: The source directory &quot;/Users/danielgeorge/Developer/Git/fluttershy/packages/cb_page_layout_ffi/libcbpagelayout&quot; does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI. : com.android.ide.common.process.ProcessException: C++ build system [configure] failed while executing:
+/Users/danielgeorge/Library/Android/sdk/cmake/3.22.1/bin/cmake \
+-H/Users/danielgeorge/Developer/Git/fluttershy/packages/cb_page_layout_ffi/libcbpagelayout \
+-DCMAKE_SYSTEM_NAME=Android \
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+-DCMAKE_SYSTEM_VERSION=21 \
+-DANDROID_PLATFORM=android-21 \
+-DANDROID_ABI=x86 \
+-DCMAKE_ANDROID_ARCH_ABI=x86 \
+```
+How do I fix this?</historyEntry>
+        <historyEntry timestamp="1749068125675">what bloc should be updated upon confirming which payment method is selected in line 51 of hub_page?</historyEntry>
+        <historyEntry timestamp="1747168150401">rewrite hub_page to use a responsive widget in place of the Desktopify like salvage_offer_page</historyEntry>
+        <historyEntry timestamp="1746730571793">Make suggestions to improve this code:
+```dart
+switch (subscriptionFlowProfileId) {
+  _
+  when subscriptionFlowProfileId
+      .isMonthlyMinisProfile =&gt;
+  AnalyticsProductCategory
+      .monthlyMinis.analyticsName,
+  _
+  when subscriptionFlowProfileId
+      .isMonthbookProfile =&gt;
+  AnalyticsProductCategory.monthbooks.analyticsName,
+  _
+  when subscriptionFlowProfileId
+      .isSubscriptionPrintsProfile =&gt;
+  AnalyticsProductCategory
+      .printsSubscription.analyticsName,
+  _ =&gt;
+  AnalyticsProductCategory
+      .chatbooksSubscription.analyticsName,
+}
+```</historyEntry>
+        <historyEntry timestamp="1746035845377">where do i add the onRequestPermissionsResult() function so that i can get a callback after making the call to requestPermissions</historyEntry>
+        <historyEntry timestamp="1745620727401">I'm getting the following error while building my project. The error is: java.lang.NullPointerException: Cannot invoke &quot;String.length()&quot; because &quot;&lt;parameter1&gt;&quot; is null
+```
+$ ./gradlew :features:analytics:mergeExtDexDevDebug
+java.lang.NullPointerException: Cannot invoke &quot;String.length()&quot; because &quot;&lt;parameter1&gt;&quot; is null
+```
+How do I fix this?</historyEntry>
+        <historyEntry timestamp="1745438525275">how can we split this string to give us the date as its own piece in dart
+&quot;Changes will reflect on next billing date 1/31/2026&quot;</historyEntry>
+        <historyEntry timestamp="1745026189489">create a copy of state.workers and then remove any items where the key == workderId</historyEntry>
+        <historyEntry timestamp="1744749682179">do it for flutter</historyEntry>
+        <historyEntry timestamp="1744749586327">create a dialog that takes input from a text field</historyEntry>
+        <historyEntry timestamp="1741219236148">how do i just ignore a function call for a mock in dart. similar to mockk's just(Runs)</historyEntry>
+        <historyEntry timestamp="1741217844943">when this code is in the test, it give the following error
+
+Invalid argument(s): The &quot;any&quot; argument matcher is used outside of method stubbing (via `when`) or verification (via `verify` or `untilCalled`). This is invalid, and results in bad behavior during the next stubbing or verification.</historyEntry>
+        <historyEntry timestamp="1741217207588">this needs to be for dart</historyEntry>
+        <historyEntry timestamp="1741217128700">help me write a verify function for this unit test to test whether an analytics event is logged with a matching property called &quot;product_category&quot;</historyEntry>
+      </list>
+    </option>
+  </component>
+</application>

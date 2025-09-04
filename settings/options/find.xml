@@ -1,14 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="regularExpressions" value="true" />
+    <option name="customScope" value="Recently Changed Files" />
+    <option name="defaultScopeName" value="Recently Changed Files" />
     <option name="showResultsInSeparateView" value="true" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="Recently Changed Files" />
+    <option name="FILE_MASK" value="*.dart" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -22,12 +19,14 @@
     <mask>pubspec.yaml</mask>
     <mask>*.test</mask>
     <mask>*.gradle</mask>
-    <mask>*.kt</mask>
     <mask>!*.dart</mask>
     <mask>*state.dart</mask>
     <mask>*pubspec.yaml</mask>
     <mask>*test.dart</mask>
-    <mask>*.dart</mask>
+    <mask>*.kt</mask>
+    <mask>*api_impl.dart</mask>
+    <mask>*bloc.dart</mask>
     <mask>*.yaml</mask>
+    <mask>*.dart</mask>
   </component>
 </application>

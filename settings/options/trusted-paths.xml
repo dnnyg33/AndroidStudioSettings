@@ -1,0 +1,25 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Developer/Git/android" value="true" />
+        <entry key="$USER_HOME$/Developer/Git/bishopric_tools" value="true" />
+        <entry key="$USER_HOME$/Developer/Git/fluttershy" value="true" />
+        <entry key="$USER_HOME$/Developer/Git/morning-tennis-flutter" value="true" />
+        <entry key="$USER_HOME$/Developer/Git/morning-tennis-flutter/android" value="true" />
+        <entry key="$USER_HOME$/Developer/Git/prayers" value="true" />
+        <entry key="$USER_HOME$/Developer/Git/testfreezed" value="true" />
+        <entry key="$USER_HOME$/StudioProjects/flutter-in_app_purchases_paywall" value="true" />
+        <entry key="$USER_HOME$/StudioProjects/fluttersample" value="true" />
+        <entry key="$USER_HOME$/StudioProjects/sample" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Developer/Git" />
+      </list>
+    </option>
+  </component>
+</application>
