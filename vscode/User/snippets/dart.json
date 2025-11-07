@@ -1,0 +1,101 @@
+{
+	"New Logger": {
+		"prefix": "newlog",
+		"body": [
+			"import 'package:logger/logger.dart';",
+			"final _log = Logger();"
+			// "final log = Logger('${TM_FILENAME_BASE/(?:([a-z0-9]*)[_-])([a-z])/${1}${2:/upcase}/g}');"
+		],
+		"description": "Create the initial log definition"
+	},
+	"Debug log statment": {
+		"prefix": "logd",
+		"body": [
+			"_log.d('${TM_FILENAME_BASE/(.*)/${1:/upcase}/} : ')"
+			// "final log = Logger('${TM_FILENAME_BASE/(?:([a-z0-9]*)[_-])([a-z])/${1}${2:/upcase}/g}');"
+		],
+		"description": "Create log debug statement"
+	},
+	"Part": {
+		"prefix": "part",
+		"body": [
+			"part '${TM_FILENAME_BASE}.g.dart';"
+			// "final log = Logger('${TM_FILENAME_BASE/(?:([a-z0-9]*)[_-])([a-z])/${1}${2:/upcase}/g}');"
+		],
+		"description": "part statment for current file"
+	},
+	"New freezed class boilerplate": {
+		"prefix": "free",
+		"body": [
+			"import 'package:freezed_annotation/freezed_annotation.dart';",
+			"import 'package:flutter/foundation.dart';",
+			"",
+			"part '$TM_FILENAME_BASE.freezed.dart';",
+			"part '$TM_FILENAME_BASE.g.dart';",
+			"",
+			"@freezed",
+			"class $1 with _$$1 {",
+			"",
+			"\tconst factory $1({",
+			"\t\t//required String id,",
+			"\t\trequired $2",
+			"\t}) = _$1;",
+			"",
+			"\tfactory $1.fromJson(Map<String, dynamic> json) => _$$1FromJson(json);",
+			"}"
+		],
+		"description": "Setup a file which will have freezed annotated classes."
+	},
+	"New freezed Bloc State class boilerplate": {
+		"prefix": "frst",
+		"body": [
+			"import 'package:freezed_annotation/freezed_annotation.dart';",
+			"",
+			"part '$TM_FILENAME_BASE.freezed.dart';",
+			"part '$TM_FILENAME_BASE.g.dart';",
+			"",
+			"@freezed",
+			"sealed class $1 with _$$1 {",
+			"\tconst $1._();",
+			"",
+			"\tconst factory $1.initial() = $1_Initial;",
+			"",
+			"\tfactory $1.fromJson(Map<String, dynamic> json) => _$$1FromJson(json);",
+			"}"
+		],
+		"description": "Setup a file which will have freezed annotated classes."
+	},
+	"New freezed Bloc Event class boilerplate": {
+		"prefix": "frev",
+		"body": [
+			"import 'package:freezed_annotation/freezed_annotation.dart';",
+			"",
+			"part '$TM_FILENAME_BASE.freezed.dart';",
+			"",
+			"@freezed",
+			"sealed class $1 with _$$1 {",
+			"",
+			"\tconst factory $1.initial() = $1_Initial;",
+			"",
+			"}"
+		],
+		"description": "Setup a file which will have freezed annotated classes."
+	},
+	"AuthenticationState when": {
+		"prefix": "authwhen",
+		"body": [
+			"return authState.when(",
+			"\tunauthenticated: () => const WeShouldNotBeHere(why: 'user unauthenticated'),",
+			"\tauthenticated: (user) => Container()",
+			");",
+		],
+		"description": "when for auth states."
+	},	
+	"Concrete Universal Platform": {
+		"prefix": "platform",
+		"body": [
+			"final platform = GetIt.I<ConcreteUniversalPlatform>();",
+		],
+		"description": "platform"
+	},
+}

@@ -1,0 +1,35 @@
+{
+    "debug.javascript.pickAndAttachOptions": {},
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.editor.mouseBackForwardToNavigate"
+    ],
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+    },
+    "explorer.confirmDelete": false,
+    "workbench.editor.wrapTabs": true,
+    "git.confirmSync": false,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "todo"
+    ],
+    "git.enableSmartCommit": true,
+    "editor.suggest.insertMode": "insert",
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+    "diffEditor.ignoreTrimWhitespace": false,
+}

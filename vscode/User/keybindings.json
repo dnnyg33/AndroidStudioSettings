@@ -1,0 +1,141 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+escape",
+        "command": "-workbench.action.chat.cancel"
+    },
+    {
+        "key": "cmd+escape",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-editor.action.rename",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-editor.action.nextSelectionMatchFindAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+g",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+g",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
+    {
+        "key": "cmd+[",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "-workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+[",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+]",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "-workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+]",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+f11",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.reloadWindow",
+        "when": "debuggersAvailable && debugState == 'active'"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+.",
+        "command": "editor.action.marker.prev",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+alt+f8",
+        "command": "-editor.action.marker.prev",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+.",
+        "command": "-editor.action.inPlaceReplace.down",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
