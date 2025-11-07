@@ -1,1 +1,38 @@
-.zshrc
+# Add FVM's bin path (project-local)
+export PATH="$PWD/.fvm/flutter_sdk/bin/cache/dart-sdk/bin:$PATH"
+export PATH="$PWD/.fvm/bin:$PATH"
+
+# Optional: add Flutter too if you want
+# export PATH="$PWD/.fvm/flutter_sdk/bin:$PATH"
+
+# Android SDK
+export PATH="$PATH:/Users/daniel.george/Library/Android/sdk/platform-tools"
+
+# Pub cache
+export PATH="$PATH:$HOME/.pub-cache/bin"
+
+# Homebrew (usually safe to leave last)
+#eval "$(/opt/homebrew/bin/brew shellenv)"
+
+alias f="fvm flutter"
+alias d="fvm dart"
+alias fgen="d run build_runner watch --delete-conflicting-outputs"
+alias fgen1="d run build_runner build --delete-conflicting-outputs"
+alias pic="adb exec-out screencap -p > /Users/daniel.george/Developer/screen\ recordings/screen.png"
+alias melos="fvm flutter pub global run melos"
+alias wizard="fvm dart run tools/scripts/create_wizard.dart && melos gen && (cd ./apps/standalone && melos bs)"
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/daniel.george/.dart-cli-completion/zsh-config.zsh ]] && . /Users/daniel.george/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
+
+# FVM
+export PATH="/Users/daniel.george/.fvm_flutter/bin:$PATH"
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.3.0/bin:$PATH"
